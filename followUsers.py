@@ -7,7 +7,7 @@ insta_password = 'Q34s3rq34r4s!'
 
 session = InstaPy(username=insta_username,
                   password=insta_password,
-                  headless_browser=False)
+                  headless_browser=True)
 
 with smart_run(session):
     session.set_relationship_bounds(enabled=True,

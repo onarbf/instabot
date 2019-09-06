@@ -36,6 +36,7 @@ with smart_run(session):
                                     min_following=50,
                                     potency_ratio=-0.3 #max relationship_ratio
                                     )
+
   session.set_simulation(enabled=True, percentage=100)
   session.set_skip_users(skip_private=False, private_percentage=0)
   # activity
